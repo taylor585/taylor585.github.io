@@ -1,0 +1,1 @@
+import{j as n,g as r}from"./index-0k1pCB4A.js";import{P as i}from"./Panel-BwISt4SU.js";const x=({children:s,className:a,border:t=!0,intensity:o,glass:l,...e})=>n.jsx(i,{level:1,className:r("p-4 animate-fade-in",!t&&"border-transparent",a),...e,children:s});export{x as B};

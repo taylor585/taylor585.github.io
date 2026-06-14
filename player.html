@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ECL Video Suite</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #0a0a0a;
+      min-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+      color: #fff;
+      padding: 40px 32px;
+    }
+    h1 { font-size: 18px; font-weight: 700; color: rgba(255,255,255,0.5); letter-spacing: 0.08em; margin-bottom: 32px; }
+    .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 28px; max-width: 920px; margin: 0 auto; }
+    .card { background: #141414; border: 1px solid rgba(255,255,255,0.08); border-radius: 20px; overflow: hidden; }
+    .card-header { padding: 16px 20px 12px; border-bottom: 1px solid rgba(255,255,255,0.06); }
+    .card-title { font-size: 14px; font-weight: 700; color: #c4622d; letter-spacing: 0.06em; margin-bottom: 4px; }
+    .card-sub { font-size: 20px; font-weight: 700; color: #fff; }
+    .card-meta { font-size: 12px; color: rgba(255,255,255,0.35); margin-top: 4px; }
+    .video-wrap { position: relative; aspect-ratio: 9/16; background: #000; }
+    video { width: 100%; height: 100%; object-fit: contain; display: block; }
+    .tag { display: inline-block; padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600; letter-spacing: 0.04em; margin-right: 6px; }
+    .tag-social { background: rgba(196,98,45,0.2); color: #c4622d; }
+    .tag-deck { background: rgba(59,130,246,0.2); color: #3b82f6; }
+    .tag-system { background: rgba(139,92,246,0.2); color: #8b5cf6; }
+    .tag-sales { background: rgba(74,222,128,0.2); color: #4ade80; }
+  </style>
+</head>
+<body>
+  <h1>ELITE CLIENT LAUNCH — VIDEO SUITE</h1>
+  <div class="grid">
+
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">VIDEO 1</div>
+        <div class="card-sub">Short-Form Social</div>
+        <div class="card-meta">33s · Hook → Problem → Output → CTA</div>
+        <div style="margin-top:8px">
+          <span class="tag tag-social">TikTok</span>
+          <span class="tag tag-social">Reels</span>
+          <span class="tag tag-social">LinkedIn</span>
+        </div>
+      </div>
+      <div class="video-wrap">
+        <video src="/ecl-short.mp4" controls autoplay loop playsinline></video>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">VIDEO 2</div>
+        <div class="card-sub">Full System Deck</div>
+        <div class="card-meta">85s · Hook → Problem → Multiplication → System → Output → Sales → CTA</div>
+        <div style="margin-top:8px">
+          <span class="tag tag-deck">Landing Page</span>
+          <span class="tag tag-deck">YouTube</span>
+        </div>
+      </div>
+      <div class="video-wrap">
+        <video src="/ecl-full-deck.mp4" controls loop playsinline></video>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">VIDEO 3</div>
+        <div class="card-sub">Content Multiplication</div>
+        <div class="card-meta">16s · 1 concept → 5 testable variants · testing protocol</div>
+        <div style="margin-top:8px">
+          <span class="tag tag-system">Internal</span>
+          <span class="tag tag-system">Agency Pitch</span>
+        </div>
+      </div>
+      <div class="video-wrap">
+        <video src="/ecl-content-mult.mp4" controls loop playsinline></video>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">VIDEO 4</div>
+        <div class="card-sub">Sales Framework</div>
+        <div class="card-meta">18s · SPIN + Straight Line · Rackham × Belfort</div>
+        <div style="margin-top:8px">
+          <span class="tag tag-sales">Sales Team</span>
+          <span class="tag tag-sales">Training</span>
+        </div>
+      </div>
+      <div class="video-wrap">
+        <video src="/ecl-sales-framework.mp4" controls loop playsinline></video>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

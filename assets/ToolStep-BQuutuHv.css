@@ -1,0 +1,1 @@
+.tool-cq{container-type:inline-size}.tool-grid{display:grid;gap:1rem;grid-template-columns:minmax(0,1fr)}@container (min-width: 30rem){.tool-grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}}@container (min-width: 30rem){.tool-grid-3{grid-template-columns:repeat(2,minmax(0,1fr))}}@container (min-width: 48rem){.tool-grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}}

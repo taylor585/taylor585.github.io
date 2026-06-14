@@ -1,0 +1,1 @@
+import{f as i,r as s,j as f}from"./index-0k1pCB4A.js";function l({delayMs:e=0}){const t=i(),[r,n]=s.useState(!1),[o,u]=s.useState(!1);return s.useEffect(()=>{if(t)return;const a=setTimeout(()=>n(!0),e),c=setTimeout(()=>u(!0),e+1e3);return()=>{clearTimeout(a),clearTimeout(c)}},[t,e]),t||o||!r?null:f.jsx("span",{"aria-hidden":!0,className:"aim-scanline"})}export{l as S};
