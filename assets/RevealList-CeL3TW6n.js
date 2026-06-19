@@ -1,1 +1,0 @@
-import{e as c,m as a,j as s,g as v,M as m,r as l,N as u}from"./index-Ln3Lf11T.js";function x({children:e,className:n,as:t="div"}){const i=c(),o=a[t];return s.jsx(o,{className:v(n),variants:i?void 0:m,initial:i?void 0:"hidden",animate:i?void 0:"visible",children:l.Children.map(e,(r,d)=>s.jsx(a.div,{variants:i?void 0:u,children:r},d))})}export{x as R};
